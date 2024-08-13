@@ -1,0 +1,462 @@
+.background-icon {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.about-us {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 900;
+  font-family: inherit;
+  z-index: 1;
+}
+.about-us-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-2xl) 0 var(--padding-xl);
+}
+.firm-that-connects {
+  margin-right: -0.4px;
+  align-self: stretch;
+  position: relative;
+  line-height: 28px;
+  font-weight: 300;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.mission {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  min-width: 437px;
+  max-width: 100%;
+}
+.our-mission-is {
+  width: 211px;
+  position: relative;
+  line-height: 28px;
+  font-weight: 300;
+  display: flex;
+  align-items: flex-end;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.mission-vision {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 5.2px;
+  box-sizing: border-box;
+  max-width: 100%;
+  row-gap: 20px;
+}
+.to-provide-exceptional {
+  align-self: stretch;
+  position: relative;
+  font-weight: 300;
+  z-index: 1;
+}
+.firm,
+.opportunities,
+.transforming {
+  position: relative;
+  font-weight: 300;
+  display: inline-block;
+  min-width: 55.4px;
+  z-index: 1;
+}
+.opportunities,
+.transforming {
+  flex: 1;
+  min-width: 110px;
+}
+.opportunities {
+  min-width: 114px;
+}
+.into {
+  display: inline-block;
+  min-width: 51.6px;
+}
+.into,
+.successful {
+  position: relative;
+  font-weight: 300;
+  z-index: 1;
+}
+.brokerage {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 31.9px;
+}
+.excellence,
+.founded-in-dubai {
+  position: relative;
+  line-height: 28px;
+  font-weight: 300;
+  flex-shrink: 0;
+  z-index: 3;
+}
+.founded-in-dubai {
+  margin-right: -0.3px;
+  align-self: stretch;
+  z-index: 2;
+}
+.founded {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  min-width: 476px;
+  max-width: 100%;
+}
+.steelmonk {
+  position: relative;
+  font-weight: 300;
+  display: inline-block;
+  min-width: 14px;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.values {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+  row-gap: 20px;
+}
+.profile-deals-and {
+  margin-right: -0.3px;
+  align-self: stretch;
+  position: relative;
+  line-height: 28px;
+  font-weight: 300;
+  flex-shrink: 0;
+  z-index: 3;
+}
+.values-items {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  min-width: 455px;
+  max-width: 100%;
+}
+.our-values {
+  margin-right: -0.4px;
+  position: relative;
+  line-height: 28px;
+  font-weight: 300;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.values-items1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+}
+.div1 {
+  position: relative;
+  font-weight: 300;
+  display: inline-block;
+  min-width: 28px;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.values-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+  max-width: 100%;
+}
+.integrity {
+  min-width: 113px;
+}
+.centricity,
+.client,
+.integrity,
+.item,
+.professionalism {
+  position: relative;
+  font-weight: 200;
+  display: inline-block;
+  z-index: 1;
+}
+.professionalism {
+  flex: 1;
+  min-width: 140px;
+  text-align: left;
+  line-height: 35px;
+}
+.centricity,
+.client,
+.item {
+  flex-shrink: 0;
+}
+.client {
+  line-height: 28px;
+  min-width: 72.1px;
+}
+.centricity,
+.item {
+  min-width: 13px;
+}
+.centricity {
+  line-height: 28px;
+  min-width: 129.2px;
+}
+.client-centricity {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 140px;
+}
+.and {
+  position: relative;
+  font-weight: 300;
+  display: inline-block;
+  min-width: 49.4px;
+  z-index: 1;
+}
+.guiding-principles {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 37.1px;
+}
+.collaboration,
+.div2 {
+  position: relative;
+  font-weight: 300;
+  z-index: 1;
+}
+.collaboration {
+  line-height: 28px;
+}
+.div2 {
+  display: inline-block;
+  min-width: 27.4px;
+}
+.guide-everything-we {
+  flex: 1;
+  line-height: 28px;
+  min-width: 445px;
+}
+.guide-everything-we,
+.to-better-serve {
+  position: relative;
+  font-weight: 300;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.fundz-description,
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.fundz-description {
+  align-self: stretch;
+  gap: 1.8px;
+  font-size: var(--font-size-7xl);
+  color: var(--color-gray);
+  font-family: var(--font-work-sans);
+}
+.main-content {
+  max-width: 1000px;
+  gap: 50px;
+}
+.originalccbbebabbpng {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 15px;
+  z-index: 1;
+}
+.footer {
+  display: flex;
+  align-items: flex-start;
+}
+.footer {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-12xs);
+  font-size: var(--font-size-5xl);
+  color: var(--color-darkslategray);
+  font-family: var(--font-work-sans);
+}
+.page-3 {
+  width: 100%;
+  height: 80vh;
+  position: relative;
+  background-color: var(--color-tan-brown);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-24xl);
+  color: var(--color-gray);
+  font-family: var(--font-merriweather);
+}
+@media screen and (max-width: 1125px) {
+  .founded,
+  .guide-everything-we,
+  .mission,
+  .values-items {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .about-us {
+    font-size: var(--font-size-39xl);
+  }
+  .main-content {
+    gap: 53px;
+  }
+  .page-3 {
+    padding: 20px;
+    height: 100%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .steelmonk {
+    width: 100%;
+    height: 14px;
+  }
+  .page-3 {
+    padding: 40px;
+    height: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .about-us {
+    font-size: var(--font-size-24xl);
+  }
+  .firm-that-connects,
+  .our-mission-is {
+    font-size: var(--font-size-3xl);
+    line-height: 22px;
+  }
+  .firm,
+  .into,
+  .opportunities,
+  .successful,
+  .to-provide-exceptional,
+  .transforming {
+    font-size: var(--font-size-3xl);
+  }
+  .brokerage {
+    gap: 16px;
+  }
+  .excellence,
+  .founded-in-dubai {
+    line-height: 22px;
+  }
+  .excellence,
+  .founded-in-dubai,
+  .steelmonk {
+    font-size: var(--font-size-3xl);
+  }
+  .our-values,
+  .profile-deals-and {
+    font-size: var(--font-size-3xl);
+    line-height: 22px;
+  }
+  .div1,
+  .integrity,
+  .professionalism {
+    font-size: var(--font-size-3xl);
+  }
+  .client {
+    line-height: 22px;
+  }
+  .client,
+  .item {
+    font-size: var(--font-size-3xl);
+  }
+  .centricity {
+    line-height: 22px;
+  }
+  .professionalism {
+    line-height: 35px;
+    font-size: var(--font-size-lgi);
+  }
+  .and,
+  .centricity {
+    font-size: var(--font-size-3xl);
+  }
+  .guiding-principles {
+    gap: 19px;
+  }
+  .collaboration {
+    line-height: 22px;
+  }
+  .collaboration,
+  .div2 {
+    font-size: var(--font-size-3xl);
+  }
+  .guide-everything-we {
+    line-height: 22px;
+  }
+  .guide-everything-we,
+  .to-better-serve {
+    font-size: var(--font-size-3xl);
+  }
+  .main-content {
+    gap: var(--gap-8xl);
+  }
+  .originalccbbebabbpng {
+    font-size: var(--font-size-lgi);
+  }
+}

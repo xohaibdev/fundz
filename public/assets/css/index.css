@@ -1,0 +1,146 @@
+.fund-hero-div {
+  display: flex;
+  width: auto;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  gap: 25px;
+}
+
+.fundz-hero-png {
+  display: block;
+  max-width: 100%;
+  height: 50%;
+}
+
+.frame-icon {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.fundz-commercial-brokers,
+.llc {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  display: flex;
+  align-items: flex-end;
+  z-index: 1;
+}
+.fundz-commercial-brokers {
+  font-weight: 900;
+  font-family: var(--font-merriweather);
+  max-width: 100%;
+}
+.llc {
+  font-family: inherit;
+  flex-shrink: 0;
+}
+.llc-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: 36px;
+}
+.div {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 10.3px;
+  z-index: 1;
+}
+.page-1,
+.wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-11xs);
+  font-size: var(--font-size-5xl);
+  color: var(--color-darkslategray);
+}
+.page-1 {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-color: var(--color-tan-brown);
+  padding: 0 var(--padding-17xl) 0 var(--padding-17xl);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  font-size: var(--font-size-39xl);
+  color: var(--color-gray);
+  font-family: var(--font-merriweather);
+}
+
+@media screen and (max-width: 950px) {
+  .page-1 {
+    height: 95vh;
+  }
+  .fundz-commercial-brokers {
+    font-size: 48px;
+  }
+  .llc {
+    font-size: var(--font-size-10xl);
+    /* padding-top: 5px; */
+  }
+  /* .fundz-hero-png {
+    height: 50%;
+    width: auto;
+  } */
+}
+@media screen and (max-width: 700px) {
+  .page-1 {
+    height: 85vh;
+  }
+  .fundz-hero-png {
+    height: 45%;
+    width: auto;
+  }
+  .llc {
+    /* padding-top: 15px; */
+  }
+}
+@media screen and (max-width: 450px) {
+  .page-1 {
+    height: 75vh;
+  }
+  .fundz-commercial-brokers {
+    font-size: var(--font-size-10xl);
+  }
+  .llc {
+    font-size: var(--font-size-3xl);
+    /* padding-top: 25px; */
+  }
+  .div {
+    font-size: var(--font-size-lgi);
+  }
+  .fundz-hero-png {
+    height: 40%;
+    width: auto;
+  }
+}
