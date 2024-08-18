@@ -224,6 +224,7 @@
   min-width: 140px;
   text-align: left;
   line-height: 35px;
+  font-size: 22px;
 }
 .centricity,
 .client,
@@ -333,7 +334,7 @@
 }
 .page-3 {
   width: 100%;
-  height: 80vh;
+  height: 75vh;
   position: relative;
   background-color: var(--color-tan-brown);
   overflow: hidden;
