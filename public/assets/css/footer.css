@@ -119,6 +119,10 @@
     font-size: var(--font-size-24xl-1);
     gap: 50px;
   }
+  .page-8 {
+    gap: 206px;
+    box-sizing: border-box;
+  }
 }
 
 @media screen and (max-width: 950px) {
@@ -126,44 +130,43 @@
     font-size: var(--font-size-18xl);
     gap: 25px;
   }
-}
-
-@media screen and (max-width: 700px) {
-  .frame-container {
-    font-size: var(--font-size-15xl);
-    gap: 0px;
-  }
-}
-
-@media screen and (max-width: 450px) {
-  .frame-container {
-    font-size: var(--font-size-12xl);
-    gap: 0px;
-  }
-}
-
-@media screen and (max-width: 975px) {
-  .page-8 {
-    gap: 206px;
-    box-sizing: border-box;
-  }
-}
-@media screen and (max-width: 950px) {
   .contact-us {
     font-size: var(--font-size-39xl);
   }
   .adminfundzae,
   .div4 {
-    font-size: var(--font-size-15xl);
+    /* font-size: var(--font-size-15xl); */
+  }
+  .contact-us-parent {
+    text-align: center;
   }
 }
 @media screen and (max-width: 700px) {
+  .frame-container {
+    font-size: var(--font-size-15xl);
+    gap: 0px;
+  }
   .page-8 {
     gap: 103px;
     box-sizing: border-box;
   }
+  .contact-us-svg {
+    height: 65%;
+    width: auto;
+  }
+  .contact-us-parent {
+    text-align: center;
+  }
 }
 @media screen and (max-width: 450px) {
+  .frame-container {
+    font-size: var(--font-size-12xl);
+    gap: 0px;
+  }
+  .contact-us-svg {
+    height: 60%;
+    width: auto;
+  }
   .contact-us {
     font-size: var(--font-size-24xl);
   }
@@ -173,36 +176,12 @@
   }
   .contact-us-parent {
     gap: var(--gap-28xl);
+    text-align: center;
   }
   .div5 {
     font-size: var(--font-size-lgi);
   }
 }
 
-@media screen and (max-width: 975px) {
-  .contact-us-svg {
-    height: 60%;
-    width: auto;
-  }
-}
-
-@media screen and (max-width: 950px) {
-  .contact-us-svg {
-    height: 55%;
-    width: auto;
-  }
-}
-
-@media screen and (max-width: 700px) {
-  .contact-us-svg {
-    height: 50%;
-    width: auto;
-  }
-}
-
-@media screen and (max-width: 450px) {
-  .contact-us-svg {
-    height: 45%;
-    width: auto;
-  }
+@media (min-width: 801px) and (max-width: 1300px) {
 }

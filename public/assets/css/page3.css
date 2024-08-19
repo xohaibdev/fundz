@@ -299,3 +299,5 @@
     font-size: var(--font-size-lgi);
   }
 }
+@media (min-width: 801px) and (max-width: 1300px) {
+}

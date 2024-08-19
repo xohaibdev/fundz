@@ -487,3 +487,44 @@
     gap: 25px;
   }
 }
+@media (min-width: 801px) and (max-width: 1300px) {
+  .img-1 {
+    width: 70px !important;
+  }
+  .img-2 {
+    width: 60px !important;
+  }
+  .img-3 {
+    width: 75px !important;
+  }
+  .img-4 {
+    width: 55px !important;
+  }
+  .img-5 {
+    width: 60px !important;
+  }
+  .img-6 {
+    width: 85px !important;
+  }
+  .img-7 {
+    width: 75px !important;
+  }
+  .img-8 {
+    width: 65px !important;
+  }
+  .img-9 {
+    width: 70px !important;
+  }
+  .img-10 {
+    width: 80px !important;
+  }
+  .img-11 {
+    width: 80px !important;
+  }
+  .img-12 {
+    width: 80px !important;
+  }
+  .img-13 {
+    width: 110px !important;
+  }
+}

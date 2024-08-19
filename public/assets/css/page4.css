@@ -370,3 +370,9 @@
     padding: 0 var(--padding-17xl) 0 var(--padding-17xl);
   }
 }
+@media (min-width: 976px) and (max-width: 1300px) {
+  .frame-parent1 {
+    max-width: 100%;
+    padding: 50px;
+  }
+}
